@@ -14,7 +14,7 @@ tracks:
       :{release_inc}
     devel_branch: null
     name: upstream
-    patches: xenial
+    patches: r2b2
     release_inc: -1
     release_repo_url: git@github.com:nuclearsandwich/tinyxml_vendor-release
     release_tag: master
