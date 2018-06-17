@@ -1,0 +1,12 @@
+Source: ros-bouncy-tinyxml-vendor
+Section: misc
+Priority: extra
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), cmake, libtinyxml-dev, ros-bouncy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-bouncy-tinyxml-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libtinyxml-dev, ros-bouncy-ros-workspace
+Description: CMake shim over the tinxml library.
