@@ -1,0 +1,12 @@
+Source: ros-iron-tinyxml-vendor
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libtinyxml-dev, ros-iron-ament-cmake, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-tinyxml-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libtinyxml-dev, ros-iron-ros-workspace
+Description: CMake shim over the tinxml library.
