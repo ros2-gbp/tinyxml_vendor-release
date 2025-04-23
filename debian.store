@@ -1,1 +1,1 @@
-{"base": "b4b08ff", "parent": "debian/rolling/tinyxml_vendor", "previous": "8b197d0", "trim": "", "trimbase": ""}
+{"base": "ca80192c5fd3", "parent": "debian/kilted/tinyxml_vendor", "previous": "a74e1b157c71", "trim": "", "trimbase": ""}
