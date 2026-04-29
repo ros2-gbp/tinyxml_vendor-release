@@ -1,0 +1,12 @@
+Source: ros-lyrical-tinyxml-vendor
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libtinyxml-dev, ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/tinyxml_vendor/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-tinyxml-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libtinyxml-dev, ros-lyrical-ros-workspace
+Description: CMake shim over the tinxml library.
